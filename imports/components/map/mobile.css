@@ -1,0 +1,61 @@
+#map{ 
+    z-index: 0;
+    position: absolute;
+    top : 0;
+    left: 0;
+    height: 100%; 
+    width: 100%;
+    }
+
+
+
+    #itineraire{
+    z-index: 20;
+    position: absolute!important;
+    bottom : 15px!important;
+    right : 10px!important;
+}
+  #location{
+    z-index: 20;
+    position: absolute!important;
+    top : 15px!important;
+    left : 10px!important;
+}
+
+#spinner {
+    font-size:20px
+}
+
+#spinnerDiv{
+    z-index: 50;
+    position: absolute;
+    bottom: 2px;
+    width: 180px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+#directions {
+    z-index: 30;
+    position: fixed;
+    top: 0!important;
+    left: 50vw;
+    transform: translateX(-50%);
+    width: 70%;
+    margin-top:20px; 
+    text-align:center;
+    white-space: normal
+}
+
+.number{
+    position: fixed;
+    z-index: 40;
+    top: 2px;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+.leaflet-routing-container{
+    display: none;
+}

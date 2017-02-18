@@ -1,0 +1,19 @@
+<div ng-init="menuListView.init()">
+    <div class="card" ng-repeat="item in menuListView.menu">
+        <div class="card-image">
+            <img class="img-responsive" ng-src="{{item.imgURL}}">
+        </div>
+
+        <div class="card-content">
+            <span class="card-title">{{item.intitulee}}</span>
+            <p>{{item.ingredients}}</p>
+            <h3 class="price"><span class="label label-success">{{item.prix}} DH</span></h3>
+        </div>
+    </div>
+</div>
+<div class="sk-folding-cube" ng-if="menuListView.waitingMenu">
+    <div class="sk-cube1 sk-cube"></div>
+    <div class="sk-cube2 sk-cube"></div>
+    <div class="sk-cube4 sk-cube"></div>
+    <div class="sk-cube3 sk-cube"></div>
+</div>

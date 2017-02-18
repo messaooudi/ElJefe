@@ -1,0 +1,30 @@
+#menu-list-panel .panel{
+    z-index: 40;    
+    margin: 4px;
+    width: 100%;
+    height: 100%;
+    top:1px;
+    bottom: 0;
+    left: 1px;
+    right: 0;
+    margin: auto;
+    
+    -webkit-overflow-scrolling: auto;
+    
+    text-align:center;
+}
+
+#menu-list-panel .panel .panel-heading{
+    width: 100%;
+    height: 50px;
+}
+
+#menu-list-panel .panel .panel-body{
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+    margin: 2px;
+    top : 50px;
+    bottom: 0px;
+    overflow: auto;
+}
